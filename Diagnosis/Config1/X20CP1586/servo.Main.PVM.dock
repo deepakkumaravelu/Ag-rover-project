@@ -1,0 +1,528 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=servo 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=246 Type=0 Scope=0 Force=0 Index=427 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          AxisParameters                       MpAxisBasicParType    0 "                                                               *"    0   24    1    0    1    0         
+                                Position                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                Distance                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                            Acceleration                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                            Deceleration                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                               Direction                                     DINT    0 "                                                               *"    1    4    1   10    0    0 e,0,mcDI
+
+                                  Homing                         MpAxisHomingType    0 "                                                               *"    1   24    1    0    0    0         
+                                    Mode                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcHO
+
+                                Position                                    LREAL    0 "                                                               *"    2   14    1   10    0    0         
+                                 Options                  MpAxisHomingOptionsType    0 "                                                               *"    2   24    1    0    0    0         
+                           StartVelocity                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                          HomingVelocity                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            Acceleration                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              SwitchEdge                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcDI
+
+                          StartDirection                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcDI
+
+                         HomingDirection                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcDI
+
+                          ReferencePulse                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcSW
+
+                           KeepDirection                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcSW
+
+          ReferencePulseBlockingDistance                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             TorqueLimit                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+             BlockDetectionPositionError                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                  PositionErrorStopLimit                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+          RestorePositionVariableAddress                                    UDINT    0 "                                                               *"    3    7    1   10    0    0         
+                     DriveSpecificHoming                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcSW
+
+                 DriveSpecificHomingMode                                     SINT    0 "                                                               *"    3    2    1   10    0    0         
+                            SensorOffset                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                   SensorOffsetDirection                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcDI
+
+          DisableRestorePositionOnEnable                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcSW
+
+                                     Jog                            MpAxisJogType    0 "                                                               *"    1   24    1    0    0    0         
+                                Velocity                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            Acceleration                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            Deceleration                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                           LimitPosition               MpAxisJogLimitPositionType    0 "                                                               *"    2   24    1    0    0    0         
+                           FirstPosition                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                            LastPosition                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                                    Jerk                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    Stop                           MpAxisStopType    0 "                                                               *"    1   24    1    0    0    0         
+                            Deceleration                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    Jerk                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                          StopAtPosition                 MpAxisStopAtPositionType    0 "                                                               *"    2   24    1    0    0    0         
+                                Activate                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                            Deceleration                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                Position                                    LREAL    0 "                                                               *"    3   14    1   10    0    0         
+                               LimitLoad                      MpAxisLimitLoadType    0 "                                                               *"    1   24    1    0    0    0         
+                                    Load                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                               Direction                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcDI
+
+                                AutoTune                       MpAxisAutoTuneType    0 "                                                               *"    1   24    1    0    0    0         
+                                    Mode                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAX
+
+                             Orientation                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAC
+
+                       MaxCurrentPercent                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                             MaxDistance                                    LREAL    0 "                                                               *"    2   14    1   10    0    0         
+                        MaxPositionError                                    LREAL    0 "                                                               *"    2   14    1   10    0    0         
+                  SaveControllerSettings                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          LoopFilterMode                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAX
+
+                                 Options                MpAxisAutoTuneOptionsType    0 "                                                               *"    2   24    1    0    0    0         
+                     MaxProportionalGain                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                SpeedTuneLoopFilter1Mode                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcAC
+
+                  SpeedTuneFilterTmeMode                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcAC
+
+                             FeedForward              MpAxisAutoTuneFFOptionsType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Mode                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcAC
+
+                               Direction                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcDI
+
+                      MaxVelocityPercent                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            Acceleration                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    Jerk                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             LeftWheel_B                              MpAxisBasic    0 "                                                               *"    0   24    1    0    0    0         
+                                  MpLink                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              Parameters                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Update                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Power                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Home                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveAbsolute                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveAdditive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             JogPositive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             JogNegative                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                               LimitLoad                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            ReleaseBrake                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Simulate                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                AutoTune                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                              UpdateDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Position                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          CommandAborted                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 PowerOn                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 IsHomed                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              MoveActive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                MoveDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 Stopped                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          LimitLoadReady                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                           BrakeReleased                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Info                      MpAxisBasicInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                      CommunicationReady                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          ReadyToPowerOn                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              Simulation                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Jogging                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         JogLimitReached                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         LimitLoadActive                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            PLCopenState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAX
+
+                     DigitalInputsStatus                 McDigitalInputStatusType    0 "                                                               *"    2   24    1    0    0    0         
+                            HomingSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     PositiveLimitSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NegativeLimitSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                Trigger1                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                Trigger2                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                             DriveEnable                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Diag                        MpAxisDiagExtType    0 "                                                               *"    2   24    1    0    0    0         
+                                StatusID                       MpAxisStatusIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcAX
+
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                                Internal                       MpAxisInternalType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0         
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                Facility                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,-1,mpC
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                        ExecutingCommand                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcAX
+
+                             LibraryInfo                        McLibraryInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Name                               STRING[32]    0 "                                                               *"    3    9   33    1    0    0         
+                      CommunicationState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcCO
+
+                            StartupCount                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                            AutoTuneDone                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         AutoTuneQuality                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            HardwareInfo                       McHardwareInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Axis                         McHwInfoAxisType    0 "                                                               *"    3   24    1    0    0    0         
+                                AxisName                               STRING[32]    0 "                                                               *"    4    9   33    1    0    0         
+                   ConfigElementLocation                              STRING[250]    0 "                                                               *"    4    9  251    1    0    0         
+                                AxisType                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcAX
+
+                                   Drive                        McHwInfoDriveType    0 "                                                               *"    3   24    1    0    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    4    9   20    1    0    0         
+                                ModuleID                               STRING[11]    0 "                                                               *"    4    9   12    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    4    9   20    1    0    0         
+                                Revision                               STRING[11]    0 "                                                               *"    4    9   12    1    0    0         
+                         FirmwareVersion                                STRING[7]    0 "                                                               *"    4    9    8    1    0    0         
+                                    Card                   McHwInfoCardType[0..3]    0 "                                                               *"    3   24    4    0    0    0         
+                                 Card[0]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[1]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[2]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[3]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                   Motor                  McHwInfoMotorType[0..2]    0 "                                                               *"    3   24    3    0    0    0         
+                                Motor[0]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                Motor[1]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                Motor[2]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                           AutoTuneState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAT
+
+                  MechDeviationCompState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcMD
+
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                            RightWheel_B                              MpAxisBasic    0 "                                                               *"    0   24    1    0    0    0         
+                                  MpLink                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              Parameters                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Update                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Power                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Home                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveAbsolute                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveAdditive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             JogPositive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             JogNegative                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                               LimitLoad                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            ReleaseBrake                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Simulate                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                AutoTune                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                              UpdateDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Position                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          CommandAborted                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 PowerOn                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 IsHomed                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              MoveActive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                MoveDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 Stopped                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          LimitLoadReady                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                           BrakeReleased                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Info                      MpAxisBasicInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                      CommunicationReady                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          ReadyToPowerOn                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              Simulation                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Jogging                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         JogLimitReached                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         LimitLoadActive                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            PLCopenState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAX
+
+                     DigitalInputsStatus                 McDigitalInputStatusType    0 "                                                               *"    2   24    1    0    0    0         
+                            HomingSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     PositiveLimitSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NegativeLimitSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                Trigger1                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                Trigger2                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                             DriveEnable                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Diag                        MpAxisDiagExtType    0 "                                                               *"    2   24    1    0    0    0         
+                                StatusID                       MpAxisStatusIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcAX
+
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                                Internal                       MpAxisInternalType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0         
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                Facility                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,-1,mpC
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                        ExecutingCommand                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcAX
+
+                             LibraryInfo                        McLibraryInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Name                               STRING[32]    0 "                                                               *"    3    9   33    1    0    0         
+                      CommunicationState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcCO
+
+                            StartupCount                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                            AutoTuneDone                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         AutoTuneQuality                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            HardwareInfo                       McHardwareInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Axis                         McHwInfoAxisType    0 "                                                               *"    3   24    1    0    0    0         
+                                AxisName                               STRING[32]    0 "                                                               *"    4    9   33    1    0    0         
+                   ConfigElementLocation                              STRING[250]    0 "                                                               *"    4    9  251    1    0    0         
+                                AxisType                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcAX
+
+                                   Drive                        McHwInfoDriveType    0 "                                                               *"    3   24    1    0    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    4    9   20    1    0    0         
+                                ModuleID                               STRING[11]    0 "                                                               *"    4    9   12    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    4    9   20    1    0    0         
+                                Revision                               STRING[11]    0 "                                                               *"    4    9   12    1    0    0         
+                         FirmwareVersion                                STRING[7]    0 "                                                               *"    4    9    8    1    0    0         
+                                    Card                   McHwInfoCardType[0..3]    0 "                                                               *"    3   24    4    0    0    0         
+                                 Card[0]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[1]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[2]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[3]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                   Motor                  McHwInfoMotorType[0..2]    0 "                                                               *"    3   24    3    0    0    0         
+                                Motor[0]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                Motor[1]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                Motor[2]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                           AutoTuneState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAT
+
+                  MechDeviationCompState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcMD
+
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                     Row                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                             LeftWheel_F                              MpAxisBasic    0 "                                                               *"    0   24    1    0    0    0         
+                                  MpLink                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              Parameters                                    UDINT    0 "                                                               *"    1    7    1   10    0    0         
+                                  Update                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Power                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Home                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveAbsolute                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            MoveAdditive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Stop                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             JogPositive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             JogNegative                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                               LimitLoad                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                            ReleaseBrake                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Simulate                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                AutoTune                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                              UpdateDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                Position                                    LREAL    0 "                                                               *"    1   14    1   10    0    0         
+                                Velocity                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          CommandAborted                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 PowerOn                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 IsHomed                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InVelocity                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              InPosition                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                              MoveActive                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                MoveDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 Stopped                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                          LimitLoadReady                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                           BrakeReleased                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Info                      MpAxisBasicInfoType    0 "                                                               *"    1   24    1    0    0    0         
+                      CommunicationReady                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                          ReadyToPowerOn                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                              Simulation                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 Jogging                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         JogLimitReached                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         LimitLoadActive                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                            PLCopenState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAX
+
+                     DigitalInputsStatus                 McDigitalInputStatusType    0 "                                                               *"    2   24    1    0    0    0         
+                            HomingSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     PositiveLimitSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                     NegativeLimitSwitch                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                Trigger1                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                Trigger2                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                             DriveEnable                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                                    Diag                        MpAxisDiagExtType    0 "                                                               *"    2   24    1    0    0    0         
+                                StatusID                       MpAxisStatusIDType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcAX
+
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                                Internal                       MpAxisInternalType    0 "                                                               *"    3   24    1    0    0    0         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0         
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                Facility                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,-1,mpC
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                        ExecutingCommand                                     DINT    0 "                                                               *"    3    4    1   10    0    0 e,0,mcAX
+
+                             LibraryInfo                        McLibraryInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Name                               STRING[32]    0 "                                                               *"    3    9   33    1    0    0         
+                      CommunicationState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcCO
+
+                            StartupCount                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                            AutoTuneDone                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                         AutoTuneQuality                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                            HardwareInfo                       McHardwareInfoType    0 "                                                               *"    2   24    1    0    0    0         
+                                    Axis                         McHwInfoAxisType    0 "                                                               *"    3   24    1    0    0    0         
+                                AxisName                               STRING[32]    0 "                                                               *"    4    9   33    1    0    0         
+                   ConfigElementLocation                              STRING[250]    0 "                                                               *"    4    9  251    1    0    0         
+                                AxisType                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mcAX
+
+                                   Drive                        McHwInfoDriveType    0 "                                                               *"    3   24    1    0    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    4    9   20    1    0    0         
+                                ModuleID                               STRING[11]    0 "                                                               *"    4    9   12    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    4    9   20    1    0    0         
+                                Revision                               STRING[11]    0 "                                                               *"    4    9   12    1    0    0         
+                         FirmwareVersion                                STRING[7]    0 "                                                               *"    4    9    8    1    0    0         
+                                    Card                   McHwInfoCardType[0..3]    0 "                                                               *"    3   24    4    0    0    0         
+                                 Card[0]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[1]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[2]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                 Card[3]                         McHwInfoCardType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                   Motor                  McHwInfoMotorType[0..2]    0 "                                                               *"    3   24    3    0    0    0         
+                                Motor[0]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                Motor[1]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                                Motor[2]                        McHwInfoMotorType    0 "                                                               *"    4   24    1    0    0    0         
+                           InfoAvailable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             ModelNumber                               STRING[35]    0 "                                                               *"    5    9   36    1    0    0         
+                            SerialNumber                               STRING[19]    0 "                                                               *"    5    9   20    1    0    0         
+                                Revision                                STRING[3]    0 "                                                               *"    5    9    4    1    0    0         
+                           AutoTuneState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcAT
+
+                  MechDeviationCompState                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,mcMD
+
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 Counter                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                             Proximity_1                                     BOOL    0 "                                                               0"    0    1    1   10    0    0         
+                          Left_Proximity                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           Left_Solenoid                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                         Right_Proximity                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          Right_Solenoid                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                     KEY                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                  Buzzer                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   State                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                             FloatSensor                                      INT    0 "                                                               *"    0    3    1   10    0    0         
+                                 LeftAct                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                 Float_1                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                                 Float_2                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                                  checkk                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                                   Start                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                 Battery                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                                   Float                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                               RowCheckL                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                               RowCheckR                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   TOF_0                                      TOF    0 "                                                               *"    0   24    1    0    1    0         
+                                      IN                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                           T#05s"    1   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                           T#0ms"    1   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               StartTime                                     TIME    0 "                                                           T#08s"    1   12    1    1    0    0         
+                                 Restart                                    UDINT    0 "                                                              73"    1    7    1   10    0    0         
+                                    Pump                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                       MpAlarmXHistory_0                          MpAlarmXHistory    0 "                                                               *"    0   24    1    0    0    1         
+                                  MpLink                                    UDINT    0 "                                                       140930276"    1    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              DeviceName                                    UDINT    0 "                                                       174986998"    1    7    1   10    0    0         
+                                Language                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                  Export                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                             CommandDone                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                    Info                         MpAlarmXInfoType    0 "                                                               *"    1   24    1    0    0    1         
+                                    Diag                         MpAlarmXDiagType    0 "                                                               *"    2   24    1    0    0    1         
+                                StatusID                     MpAlarmXStatusIDType    0 "                                                               *"    3   24    1    0    0    1         
+                                      ID                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpAL
+
+                                Severity                                     DINT    0 "                                                               *"    4    4    1   10    0    0 e,0,mpCO
+
+                                    Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
+                                Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    1         
+                                 pObject                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         

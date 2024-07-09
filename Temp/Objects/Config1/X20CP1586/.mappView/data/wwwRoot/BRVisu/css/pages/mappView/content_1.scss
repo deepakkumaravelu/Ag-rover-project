@@ -1,0 +1,83 @@
+@import "mixins.scss";
+#content_1_Label1 {	@include elemTop(160);
+}
+#content_1_Label1 {	@include elemLeft(580);
+}
+#content_1_Label1 {	@include elemAutoWidth(560);
+}
+#content_1_Label1 {	@include elemAutoHeight(182);
+}
+#content_1_Label1 {	z-index: 0;
+}
+#content_1_Label1 {	font-size: 50px;
+}
+#content_1_AlarmHistory1 {	@include elemTop(20);
+}
+#content_1_AlarmHistory1 {	@include elemLeft(119);
+}
+#content_1_AlarmHistory1 {	@include elemWidth(1301);
+}
+#content_1_AlarmHistory1 {	@include elemHeight(420);
+}
+#content_1_AlarmHistory1 {	z-index: 1;
+}
+#content_1_AlarmHistory1 {	&.breaseTableWidget {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#content_1_AlarmHistory1 {	&.breaseTableWidget .breaseTableColumnWidget:not(.disabled) {
+		background-color: rgba(240, 255, 240, 1);
+	}
+}
+#content_1_AlarmHistory1 {	&.breaseTableWidget .dataTable tr.selected td {
+		background-color: rgba(240, 255, 240, 1);
+	}
+}
+#content_1_AlarmHistory1 {	&.breaseTableWidget .dataTable paginate_button current {
+		border-color: rgba(240, 255, 240, 1);
+	}
+}
+#content_1_AlarmHistory1 {	&.breaseTableWidget .dataTable>tbody>tr>td {
+		font-size: 15px;
+	}
+}
+#content_1_AlarmHistory1 {	&.breaseTableWidget .tw_table table tbody tr td {
+		@include font-weight-bold(false);
+	}
+}
+#content_1_AlarmHistoryItem1 {	@include elemWidth(340);
+}
+#content_1_AlarmHistoryItem1 {	z-index: 0;
+}
+#content_1_AlarmHistoryItem2 {	@include elemWidth(500);
+}
+#content_1_AlarmHistoryItem2 {	z-index: 1;
+}
+#content_1_AlarmHistoryItem3 {	@include elemWidth(460);
+}
+#content_1_AlarmHistoryItem3 {	z-index: 2;
+}
+#content_1_Export {	@include elemTop(440);
+}
+#content_1_Export {	@include elemLeft(120);
+}
+#content_1_Export {	@include elemAutoWidth(200);
+}
+#content_1_Export {	@include elemAutoHeight(58);
+}
+#content_1_Export {	z-index: 2;
+}
+#content_1_Export {	@include border-radius(5px);
+}
+#content_1_Export {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#content_1_Export {	span {
+		font-size: 17px;
+	}
+}
+#content_1_Export {	span {
+		@include font-weight-bold(true);
+	}
+}

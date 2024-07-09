@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_4" height="545" width="1535" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="219" left="620" width="399" height="121" zIndex="0" text="Capacity" fontSize="50px" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="40" left="520" width="460" height="460" zIndex="1" backColor="rgba(255, 255, 255, 1)" borderStyle="solid" cornerRadius="5px" />
+    <Widget xsi:type="widgets.brease.ProgressBar" id="battery" top="40" left="1120" width="80" height="462" zIndex="2" orientation="BottomToTop" barBorderWidth="0px" barColor="rgba(50, 205, 50, 1)" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.ProgressBar" id="weedicide" top="40" left="300" width="80" height="460" zIndex="3" orientation="BottomToTop" barBorderWidth="0px" barColor="rgba(50, 205, 50, 1)" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="WeedicideLevel" top="0" left="280" width="121" zIndex="4" text="Weedicide" textAlign="center" fontName="Arial Unicode" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="BatteryLevel" top="0" left="1100" width="121" zIndex="5" text="Battery" textAlign="center" fontName="Arial Unicode" fontSize="20px" bold="true" />
+  </Widgets>
+</Content>

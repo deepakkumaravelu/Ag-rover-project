@@ -1,0 +1,121 @@
+@import "mixins.scss";
+#content_4_Label1 {	@include elemTop(219);
+}
+#content_4_Label1 {	@include elemLeft(620);
+}
+#content_4_Label1 {	@include elemAutoWidth(399);
+}
+#content_4_Label1 {	@include elemAutoHeight(121);
+}
+#content_4_Label1 {	z-index: 0;
+}
+#content_4_Label1 {	font-size: 50px;
+}
+#content_4_Image1 {	@include elemTop(40);
+}
+#content_4_Image1 {	@include elemLeft(520);
+}
+#content_4_Image1 {	@include elemAutoWidth(460);
+}
+#content_4_Image1 {	@include elemAutoHeight(460);
+}
+#content_4_Image1 {	z-index: 1;
+}
+#content_4_Image1 {	background-color: rgba(255, 255, 255, 1);
+}
+#content_4_Image1 {	border-style: solid;
+}
+#content_4_Image1 {	@include border-radius(5px);
+}
+#content_4_battery {	@include elemTop(40);
+}
+#content_4_battery {	@include elemLeft(1120);
+}
+#content_4_battery {	@include elemWidth(80);
+}
+#content_4_battery {	@include elemHeight(462);
+}
+#content_4_battery {	z-index: 2;
+}
+#content_4_battery {	.pb-bar-container {
+		border-width: 0px;
+	}
+}
+#content_4_battery {	.pb-progress {
+		background-color: rgba(50, 205, 50, 1);
+	}
+}
+#content_4_battery {	.pb-label-text {
+		font-size: 20px;
+	}
+}
+#content_4_battery {	.pb-label-text {
+		@include font-weight-bold(true);
+	}
+}
+#content_4_weedicide {	@include elemTop(40);
+}
+#content_4_weedicide {	@include elemLeft(300);
+}
+#content_4_weedicide {	@include elemWidth(80);
+}
+#content_4_weedicide {	@include elemHeight(460);
+}
+#content_4_weedicide {	z-index: 3;
+}
+#content_4_weedicide {	.pb-bar-container {
+		border-width: 0px;
+	}
+}
+#content_4_weedicide {	.pb-progress {
+		background-color: rgba(50, 205, 50, 1);
+	}
+}
+#content_4_weedicide {	.pb-label-text {
+		font-size: 20px;
+	}
+}
+#content_4_weedicide {	.pb-label-text {
+		@include font-weight-bold(true);
+	}
+}
+#content_4_WeedicideLevel {	@include elemAutoHeight(30);
+}
+#content_4_WeedicideLevel {	@include elemTop(0);
+}
+#content_4_WeedicideLevel {	@include elemLeft(280);
+}
+#content_4_WeedicideLevel {	@include elemAutoWidth(121);
+}
+#content_4_WeedicideLevel {	z-index: 4;
+}
+#content_4_WeedicideLevel {	@include text-alignment-all('center');
+}
+#content_4_WeedicideLevel {	span {
+		font-family: Arial Unicode;
+	}
+}
+#content_4_WeedicideLevel {	font-size: 20px;
+}
+#content_4_WeedicideLevel {	@include font-weight-bold(true);
+}
+#content_4_BatteryLevel {	@include elemAutoHeight(30);
+}
+#content_4_BatteryLevel {	@include elemTop(0);
+}
+#content_4_BatteryLevel {	@include elemLeft(1100);
+}
+#content_4_BatteryLevel {	@include elemAutoWidth(121);
+}
+#content_4_BatteryLevel {	z-index: 5;
+}
+#content_4_BatteryLevel {	@include text-alignment-all('center');
+}
+#content_4_BatteryLevel {	span {
+		font-family: Arial Unicode;
+	}
+}
+#content_4_BatteryLevel {	font-size: 20px;
+}
+#content_4_BatteryLevel {	@include font-weight-bold(true);
+}

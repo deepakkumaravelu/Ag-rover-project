@@ -1,0 +1,5 @@
+VAR
+	TON_0 : TON;
+	TOF_0 : TOF;
+	TON_1 : TON;
+END_VAR

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ldef:Layout id="area" height="695" width="1535" xmlns:ldef="http://www.br-automation.com/iat2015/layoutDefinition/v2">
+  <Areas>
+    <Area id="titlebar" height="75" width="1535" left="0" top="0" zIndex="0" />
+    <Area id="navbar" left="0" top="620" width="1535" height="75" zIndex="1" />
+    <Area id="mainarea" left="0" top="75" width="1535" height="545" zIndex="2" />
+  </Areas>
+</ldef:Layout>

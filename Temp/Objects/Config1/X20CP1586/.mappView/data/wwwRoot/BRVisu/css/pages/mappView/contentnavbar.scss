@@ -1,0 +1,253 @@
+@import "mixins.scss";
+#contentnavbar_NavigationButton1 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton1 {	@include elemLeft(120);
+}
+#contentnavbar_NavigationButton1 {	@include elemAutoWidth(160);
+}
+#contentnavbar_NavigationButton1 {	@include elemAutoHeight(45);
+}
+#contentnavbar_NavigationButton1 {	z-index: 0;
+}
+#contentnavbar_NavigationButton1 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton1 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton1 {	@include border-radius(7px);
+}
+#contentnavbar_NavigationButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#contentnavbar_NavigationButton1 {	span {
+		font-size: 15px;
+	}
+}
+#contentnavbar_NavigationButton1 {	span {
+		font-family: Arial;
+	}
+}
+#contentnavbar_NavigationButton1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#contentnavbar_NavigationButton1 {	span {
+		@include font-style-italic(false);
+	}
+}
+#contentnavbar_NavigationButton1 {	padding: 0px 10px;
+}
+#contentnavbar_NavigationButton2 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton2 {	@include elemLeft(480);
+}
+#contentnavbar_NavigationButton2 {	@include elemAutoWidth(160);
+}
+#contentnavbar_NavigationButton2 {	@include elemAutoHeight(45);
+}
+#contentnavbar_NavigationButton2 {	z-index: 1;
+}
+#contentnavbar_NavigationButton2 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton2 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton2 {	@include border-radius(7px);
+}
+#contentnavbar_NavigationButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#contentnavbar_NavigationButton2 {	span {
+		font-size: 15px;
+	}
+}
+#contentnavbar_NavigationButton2 {	span {
+		font-family: Arial;
+	}
+}
+#contentnavbar_NavigationButton2 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#contentnavbar_NavigationButton2 {	span {
+		@include font-style-italic(false);
+	}
+}
+#contentnavbar_NavigationButton2 {	padding: 0px 10px;
+}
+#contentnavbar_NavigationButton3 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton3 {	@include elemLeft(300);
+}
+#contentnavbar_NavigationButton3 {	@include elemAutoWidth(160);
+}
+#contentnavbar_NavigationButton3 {	@include elemAutoHeight(45);
+}
+#contentnavbar_NavigationButton3 {	z-index: 2;
+}
+#contentnavbar_NavigationButton3 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton3 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton3 {	@include border-radius(7px);
+}
+#contentnavbar_NavigationButton3 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#contentnavbar_NavigationButton3 {	span {
+		font-size: 15px;
+	}
+}
+#contentnavbar_NavigationButton3 {	span {
+		font-family: Arial;
+	}
+}
+#contentnavbar_NavigationButton3 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#contentnavbar_NavigationButton3 {	span {
+		@include font-style-italic(false);
+	}
+}
+#contentnavbar_NavigationButton3 {	padding: 0px 10px;
+}
+#contentnavbar_LogoutButton1 {	@include elemTop(20);
+}
+#contentnavbar_LogoutButton1 {	@include elemLeft(1280);
+}
+#contentnavbar_LogoutButton1 {	@include elemAutoWidth(120);
+}
+#contentnavbar_LogoutButton1 {	@include elemAutoHeight(45);
+}
+#contentnavbar_LogoutButton1 {	z-index: 3;
+}
+#contentnavbar_LogoutButton1 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#contentnavbar_LogoutButton1 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#contentnavbar_LogoutButton1 {	@include border-radius(7px);
+}
+#contentnavbar_LogoutButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#contentnavbar_LogoutButton1 {	span {
+		font-size: 15px;
+	}
+}
+#contentnavbar_LogoutButton1 {	span {
+		font-family: Arial;
+	}
+}
+#contentnavbar_LogoutButton1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#contentnavbar_LogoutButton1 {	span {
+		@include font-style-italic(false);
+	}
+}
+#contentnavbar_LogoutButton1 {	padding: 0px 10px;
+}
+#contentnavbar_NavigationButton4 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton4 {	@include elemLeft(660);
+}
+#contentnavbar_NavigationButton4 {	@include elemAutoWidth(160);
+}
+#contentnavbar_NavigationButton4 {	@include elemAutoHeight(45);
+}
+#contentnavbar_NavigationButton4 {	z-index: 4;
+}
+#contentnavbar_NavigationButton4 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton4 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton4 {	@include border-radius(7px);
+}
+#contentnavbar_NavigationButton4 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#contentnavbar_NavigationButton4 {	span {
+		font-size: 15px;
+	}
+}
+#contentnavbar_NavigationButton4 {	span {
+		font-family: Arial;
+	}
+}
+#contentnavbar_NavigationButton4 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#contentnavbar_NavigationButton4 {	span {
+		@include font-style-italic(false);
+	}
+}
+#contentnavbar_NavigationButton4 {	padding: 0px 10px;
+}
+#contentnavbar_NavigationButton5 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton5 {	@include elemLeft(840);
+}
+#contentnavbar_NavigationButton5 {	@include elemAutoWidth(180);
+}
+#contentnavbar_NavigationButton5 {	@include elemAutoHeight(45);
+}
+#contentnavbar_NavigationButton5 {	z-index: 5;
+}
+#contentnavbar_NavigationButton5 {	&:not(.active):not(.checked) {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton5 {	&.disabled {
+		border-width: 3px;
+	}
+}
+#contentnavbar_NavigationButton5 {	@include border-radius(7px);
+}
+#contentnavbar_NavigationButton5 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#contentnavbar_NavigationButton5 {	span {
+		font-size: 15px;
+	}
+}
+#contentnavbar_NavigationButton5 {	span {
+		font-family: Arial;
+	}
+}
+#contentnavbar_NavigationButton5 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#contentnavbar_NavigationButton5 {	span {
+		@include font-style-italic(false);
+	}
+}
+#contentnavbar_NavigationButton5 {	padding: 0px 10px;
+}

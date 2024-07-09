@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="Weedicide" />
+        <Property ID="Message" Value="{&amp;LimitText}" />
+        <Property ID="Code" Value="1000" />
+        <Property ID="Severity" Value="10" />
+        <Selector ID="Behavior" Value="LevelMonitoring">
+          <Group ID="Monitoring">
+            <Property ID="MonitoredPV" Value="::Float" />
+            <Selector ID="LowLimitEnable" Value="Static">
+              <Property ID="Limit" Value="50" />
+              <Property ID="LimitText" Value="weedicide remaining : below 50%" />
+              <Selector ID="LowLowLimitEnable" Value="Static">
+                <Property ID="Limit" Value="16" />
+                <Property ID="LimitText" Value="weedicide remaining: critical below 15%" />
+              </Selector>
+            </Selector>
+            <Selector ID="HighLimitEnable" Value="Static">
+              <Property ID="Limit" Value="50" />
+              <Property ID="LimitText" Value="weedicide remainig : above 50%" />
+              <Selector ID="HighHighLimitEnable" Value="Static">
+                <Property ID="Limit" Value="99" />
+                <Property ID="LimitText" Value="Full capacity" />
+              </Selector>
+            </Selector>
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="Battery" />
+        <Property ID="Message" Value="{&amp;LimitText}" />
+        <Property ID="Code" Value="2000" />
+        <Property ID="Severity" Value="20" />
+        <Selector ID="Behavior" Value="LevelMonitoring">
+          <Group ID="Monitoring">
+            <Property ID="MonitoredPV" Value="::Battery" />
+            <Selector ID="LowLimitEnable" Value="Static">
+              <Property ID="Limit" Value="50" />
+              <Property ID="LimitText" Value="Battery status:below  50%" />
+              <Selector ID="LowLowLimitEnable" Value="Static">
+                <Property ID="Limit" Value="16" />
+                <Property ID="LimitText" Value="Battery status: Critical below 15%" />
+              </Selector>
+            </Selector>
+            <Selector ID="HighLimitEnable" Value="Static">
+              <Property ID="Limit" Value="50" />
+              <Property ID="LimitText" Value="Battery status: above 50%" />
+              <Selector ID="HighHighLimitEnable" Value="Static">
+                <Property ID="Limit" Value="99" />
+                <Property ID="LimitText" Value="Battery status: fully charged 100%" />
+              </Selector>
+            </Selector>
+          </Group>
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

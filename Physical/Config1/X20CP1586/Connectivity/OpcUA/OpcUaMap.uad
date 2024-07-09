@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="B4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="RightAct" />
+        <Variable Name="KEY" />
+        <Variable Name="AxisParameters">
+          <Variable Name="Position" />
+          <Variable Name="Velocity" />
+          <Variable Name="Acceleration" />
+        </Variable>
+        <Variable Name="LeftAct" />
+        <Variable Name="Pump" />
+        <Variable Name="MpAlarmXCore_0" />
+        <Variable Name="UIConnect">
+          <Variable Name="Acknowledge" />
+          <Variable Name="AcknowledgeAll" />
+        </Variable>
+        <Variable Name="Battery" />
+        <Variable Name="Start" />
+        <Variable Name="Float" />
+        <Variable Name="Counter" />
+        <Variable Name="Buzzer" />
+        <Variable Name="Left_Proximity" />
+        <Variable Name="Left_Solenoid" />
+        <Variable Name="Right_Proximity" />
+        <Variable Name="Right_Solenoid" />
+        <Variable Name="Row" />
+        <Variable Name="Proximity_1" />
+        <Variable Name="RightWheel_B" />
+        <Variable Name="RightWheel_F" />
+        <Variable Name="State" />
+        <Variable Name="totallane" />
+        <Variable Name="RowCheckL" />
+        <Variable Name="RowCheckR" />
+        <Variable Name="PumpPressure" />
+        <Variable Name="MpAlarmXHistory_0">
+          <Variable Name="Export" />
+        </Variable>
+      </GlobalVariables>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

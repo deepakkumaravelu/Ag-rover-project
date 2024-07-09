@@ -1,0 +1,5 @@
+VAR
+	gAlarmXCore : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Config.mpalarmxcore" #2"1" #3"1"*)
+	gAlarmXHistory : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Config_5.mpalarmxhistory" #2"1" #3"1"*)
+	gRecipeCsv : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Config_7.mprecipecsv" #2"1" #3"1"*)
+END_VAR

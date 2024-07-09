@@ -1,0 +1,21 @@
+Tue Jul  9 07:10:32 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Tue Jul  9 07:10:32 2024
+No ARsim registration found!
+
+Tue Jul  9 07:10:32 2024
+InstanceName: 000000003683de6f
+
+Tue Jul  9 07:10:32 2024
+WorkingDirectory: C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Temp\Simulation\Config1\X20CP1586\
+
+Tue Jul  9 07:10:32 2024
+COMMAND_COLDSTART
+
+Tue Jul  9 07:10:35 2024
+Version: B4.93
+
+Tue Jul  9 08:13:30 2024
+COMMAND_TERMINATE
+

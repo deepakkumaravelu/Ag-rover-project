@@ -1,0 +1,75 @@
+@import "mixins.scss";
+#contenttitle_DateTimeOutput1 {	@include elemAutoHeight(30);
+}
+#contenttitle_DateTimeOutput1 {	@include elemTop(0);
+}
+#contenttitle_DateTimeOutput1 {	@include elemLeft(960);
+}
+#contenttitle_DateTimeOutput1 {	@include elemAutoWidth(240);
+}
+#contenttitle_DateTimeOutput1 {	z-index: 0;
+}
+#contenttitle_DateTimeOutput1 {	font-family: Arial Unicode;
+}
+#contenttitle_DateTimeOutput1 {	font-size: 20px;
+}
+#contenttitle_DateTimeOutput1 {	margin: 10px;
+}
+#contenttitle_LoginInfo1 {	@include elemAutoWidth(120);
+}
+#contenttitle_LoginInfo1 {	@include elemAutoHeight(30);
+}
+#contenttitle_LoginInfo1 {	@include elemTop(33);
+}
+#contenttitle_LoginInfo1 {	@include elemLeft(1073);
+}
+#contenttitle_LoginInfo1 {	z-index: 1;
+}
+#contenttitle_LoginInfo1 {	margin: 7px;
+}
+#contenttitle_Image3 {	@include elemTop(0);
+}
+#contenttitle_Image3 {	@include elemLeft(1300);
+}
+#contenttitle_Image3 {	@include elemAutoWidth(80);
+}
+#contenttitle_Image3 {	@include elemAutoHeight(60);
+}
+#contenttitle_Image3 {	z-index: 2;
+}
+#contenttitle_Image3 {	margin: 10px;
+}
+#contenttitle_Image2 {	@include elemTop(0);
+}
+#contenttitle_Image2 {	@include elemLeft(110);
+}
+#contenttitle_Image2 {	@include elemAutoWidth(300);
+}
+#contenttitle_Image2 {	@include elemAutoHeight(60);
+}
+#contenttitle_Image2 {	z-index: 3;
+}
+#contenttitle_Image2 {	border-width: 0px;
+}
+#contenttitle_Image2 {	@include border-radius(5px);
+}
+#contenttitle_Image2 {	margin: 10px;
+}
+#contenttitle_Currentuser {	@include elemAutoHeight(30);
+}
+#contenttitle_Currentuser {	@include elemTop(33);
+}
+#contenttitle_Currentuser {	@include elemLeft(973);
+}
+#contenttitle_Currentuser {	@include elemAutoWidth(100);
+}
+#contenttitle_Currentuser {	z-index: 4;
+}
+#contenttitle_Currentuser {	margin: 7px;
+}
+#contenttitle_Line1 {	z-index: 5;
+}
+#contenttitle_Line1 {	line {
+		stroke-width: 2px;
+	}
+}

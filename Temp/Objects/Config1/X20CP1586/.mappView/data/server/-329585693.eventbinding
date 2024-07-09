@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="contenttitle">
+    <EventBinding id="contenttitle.Image3.Click">
+      <Source type="widgets.brease.Image.Event" event="Click" refId="contenttitle_Image3" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.Navigate"><Parameter name="pageId" xsi:type="ANY_STRING" value="page_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

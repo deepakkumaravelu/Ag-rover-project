@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisParameters.Position" attribute="value" />
+<Target xsi:type="brease" refId="content_0_nooflane1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisParameters.Position" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_nooflane1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisParameters.Velocity" attribute="value" />
+<Target xsi:type="brease" refId="content_0_nooflane2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisParameters.Velocity" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_nooflane2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisParameters.Acceleration" attribute="value" />
+<Target xsi:type="brease" refId="content_0_nooflane3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:AxisParameters.Acceleration" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_nooflane3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+		
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:KEY" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:KEY" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Start" attribute="value" />
+<Target xsi:type="brease" refId="content_0_ToggleButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Start" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_ToggleButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:KEY" attribute="value" />
+<Target xsi:type="brease" refId="content_0_Image2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Counter" attribute="value" />
+<Target xsi:type="brease" refId="content_0_NumericOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:totallane" attribute="value" />
+<Target xsi:type="brease" refId="content_0_nooflane" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:totallane" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_nooflane" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:RowCheckR" attribute="value" />
+<Target xsi:type="brease" refId="content_0_rightturn" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:RowCheckL" attribute="value" />
+<Target xsi:type="brease" refId="content_0_leftturn" attribute="visible" />
+</Binding></Content>
+
+
+
+
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:RowCheckL" attribute="value" />
+<Target xsi:type="brease" refId="content_0_right_indicator_2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:RowCheckL" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_right_indicator_2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:RowCheckR" attribute="value" />
+<Target xsi:type="brease" refId="content_0_left_indicator_1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:RowCheckR" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_left_indicator_1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+
+
+<Content id="content_0"><Binding mode="oneWayToSource">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:PumpPressure" attribute="value" />
+<Target xsi:type="brease" refId="content_0_nooflane4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:PumpPressure" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_nooflane4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pump" attribute="value" />
+<Target xsi:type="brease" refId="content_0_pump_indicator" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pump" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_pump_indicator" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Proximity_1" attribute="value" />
+<Target xsi:type="brease" refId="content_0_left_indicator_2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Proximity_1" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_left_indicator_2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Left_Proximity" attribute="value" />
+<Target xsi:type="brease" refId="content_0_left_indicator_3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Left_Proximity" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_left_indicator_3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="content_0"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Right_Proximity" attribute="value" />
+<Target xsi:type="brease" refId="content_0_left_indicator_4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Right_Proximity" attribute="editable" />
+<Target xsi:type="brease" refId="content_0_left_indicator_4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

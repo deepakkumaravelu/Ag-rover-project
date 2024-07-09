@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_3" height="545" width="1535" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="100" left="640" width="640" height="300" zIndex="0" text="SDM" fontSize="50px" />
+    <Widget xsi:type="widgets.brease.WebViewer" id="WebViewer1" top="60" left="380" width="720" height="420" zIndex="1" host="127.0.0.1" path="sdm-vga" query="system_general.html" borderStyle="none" borderWidth="0px 0px 0px 0px" />
+  </Widgets>
+</Content>

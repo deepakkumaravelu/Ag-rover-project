@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="PagesPackage" PackageType="PagesPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">MainPage</Object>
+    <Object Type="Package">AlarmHistory</Object>
+    <Object Type="Package">Alarm</Object>
+    <Object Type="Package">SDM</Object>
+    <Object Type="Package">Capacity</Object>
+    <Object Type="Package">SignIn</Object>
+  </Objects>
+</Package>

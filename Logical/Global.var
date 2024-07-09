@@ -1,0 +1,33 @@
+VAR
+	RightAct : BOOL;
+	Left_Proximity : BOOL;
+	Right_Solenoid : BOOL;
+	KEY : BOOL;
+	Buzzer : BOOL;
+	Right_Proximity : BOOL;
+	Left_Solenoid : BOOL;
+	LeftAct : BOOL;
+	Proximity_1 : BOOL;
+	Counter : INT := 0;
+	Row : INT;
+	LeftWheel_F : MpAxisBasic;
+	LeftWheel_B : MpAxisBasic;
+	RightWheel_F : MpAxisBasic;
+	RightWheel_B : MpAxisBasic;
+	AxisParameters : MpAxisBasicParType;
+	State : BOOL := FALSE;
+	MpAlarmXCore_0 : MpAlarmXCore;
+	Pump : BOOL;
+	MpAlarmXListUI_0 : MpAlarmXListUI;
+	UIConnect : MpAlarmXListUIConnectType;
+	MpAlarmXHistory_0 : MpAlarmXHistory;
+	MpAlarmXHistoryUI_0 : MpAlarmXHistoryUI;
+	UIConnectHistory : MpAlarmXHistoryUIConnectType;
+	Battery : INT;
+	Start : BOOL;
+	Float : INT;
+	totallane : INT;
+	RowCheckL : BOOL;
+	RowCheckR : BOOL;
+	PumpPressure : INT := 0;
+END_VAR

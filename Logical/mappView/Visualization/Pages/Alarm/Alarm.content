@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_2" height="545" width="1535" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="20" left="119" width="1281" height="420" zIndex="0" backColor="rgba(255, 255, 255, 1)" headerBackColor="rgba(240, 255, 240, 1)" backColorSelectedRow="rgba(192, 255, 192, 1)" disabledHeaderBackColor="rgba(240, 255, 240, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="340" zIndex="0" columnType="timestamp" text="Time" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="360" zIndex="1" text="Message" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" width="300" zIndex="2" columnType="state" text="State" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" width="280" zIndex="3" columnType="code" text="Category" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="440" left="380" width="200" height="60" zIndex="1" image="Media/SymbolLib/Symbols/Accept.svg" text="Acknowledge All" cornerRadius="5px" backColor="rgba(245, 255, 250, 1)" fontSize="15px" bold="true" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="440" left="120" width="200" height="60" zIndex="2" image="Media/SymbolLib/Symbols/Accept.svg" text="Acknowledge" cornerRadius="5px" backColor="rgba(245, 255, 250, 1)" fontSize="15px" bold="true" />
+  </Widgets>
+</Content>

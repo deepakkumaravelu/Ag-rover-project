@@ -1,0 +1,6 @@
+VAR
+	gAxis_1 : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_1.axis" #2"1" #3"1"*)
+	gAxis_2 : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_2.axis" #2"1" #3"1"*)
+	gAxis_3 : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_3.axis" #2"1" #3"1"*)
+	gAxis_4 : {REDUND_UNREPLICABLE} McAxisType; (*#1"C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_4.axis" #2"1" #3"1"*)
+END_VAR

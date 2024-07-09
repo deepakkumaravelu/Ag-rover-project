@@ -1,0 +1,39 @@
+@import "mixins.scss";
+#content_3_Label1 {	@include elemTop(100);
+}
+#content_3_Label1 {	@include elemLeft(640);
+}
+#content_3_Label1 {	@include elemAutoWidth(640);
+}
+#content_3_Label1 {	@include elemAutoHeight(300);
+}
+#content_3_Label1 {	z-index: 0;
+}
+#content_3_Label1 {	font-size: 50px;
+}
+#content_3_WebViewer1 {	@include elemTop(60);
+}
+#content_3_WebViewer1 {	@include elemLeft(380);
+}
+#content_3_WebViewer1 {	@include elemWidth(720);
+}
+#content_3_WebViewer1 {	@include elemHeight(420);
+}
+#content_3_WebViewer1 {	z-index: 1;
+}
+#content_3_WebViewer1 {	& iframe {
+		border-style: none;
+	}
+}
+#content_3_WebViewer1 {	& div.editorImage {
+		border-style: none;
+	}
+}
+#content_3_WebViewer1 {	& iframe {
+		border-width: 0px 0px 0px 0px;
+	}
+}
+#content_3_WebViewer1 {	& div.editorImage {
+		border-width: 0px 0px 0px 0px;
+	}
+}

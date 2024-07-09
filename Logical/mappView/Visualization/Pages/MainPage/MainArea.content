@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_0" height="545" width="1535" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="20" left="400" width="700" height="500" zIndex="0" backColor="rgba(211, 211, 211, 1)" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton1" top="80" left="60" width="120" height="40" zIndex="1" text="START" backColor="rgba(0, 192, 0, 1)" textColor="rgba(255, 255, 255, 1)" fontSize="20px" fontName="Times New Roman" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="nooflane" top="200" left="280" width="60" height="35" zIndex="2" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="440" left="1180" width="140" height="40" zIndex="3" text="ALARM" backColor="rgba(255, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" fontSize="20px" fontName="Times New Roman" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="40" left="1400" width="60" height="35" zIndex="4" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="1160" width="220" height="31" zIndex="5" text="LANES COVERED" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="200" left="40" width="200" zIndex="6" text="TOTAL LANES" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton2" top="80" left="220" width="120" height="40" zIndex="7" text="STOP" backColor="rgba(255, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" fontSize="20px" fontName="Times New Roman" />
+    <Widget xsi:type="widgets.brease.Image" id="pumpstatus" top="340" left="1420" width="30" height="30" zIndex="8" backColor="rgba(50, 205, 50, 1)" cornerRadius="50px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="340" left="1160" width="200" zIndex="9" text="PUMP STATUS" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="220" left="1160" width="200" zIndex="10" text="LEFT" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Image" id="currentleftlane" top="220" left="1420" width="30" height="30" zIndex="11" backColor="rgba(50, 205, 50, 1)" cornerRadius="50px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="280" left="1160" width="220" zIndex="12" text="RIGHT" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Image" id="currentrightlane" top="280" left="1420" width="30" height="30" zIndex="13" backColor="rgba(50, 205, 50, 1)" cornerRadius="50px" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="nooflane1" top="260" left="280" width="60" height="35" zIndex="14" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="260" left="40" width="200" zIndex="15" text="POSITION" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="nooflane2" top="320" left="280" width="60" height="35" zIndex="16" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="320" left="40" width="200" zIndex="17" text="VELOCITY" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="nooflane3" top="380" left="280" width="60" height="35" zIndex="18" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="380" left="40" width="220" height="31" zIndex="19" text="ACCELARATION" fontName="Times New Roman" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="420" left="1360" zIndex="20" image="Media/speaker-filled-audio-tool_59284.png" backColor="rgba(255, 255, 255, 0)" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="160" left="1140" width="360" height="240" zIndex="21" text="ACTUATOR" fontSize="20px">
+      <Widgets />
+    </Widget>
+    <Widget xsi:type="widgets.brease.NumericInput" id="nooflane4" top="440" left="280" width="60" height="35" zIndex="22" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="440" left="40" width="200" zIndex="23" text="PRESSURE" fontName="Times New Roman" fontSize="25px" />
+  </Widgets>
+</Content>

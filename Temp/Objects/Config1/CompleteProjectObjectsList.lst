@@ -1,0 +1,1863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<Objects>
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133648297084990584" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\McElements.var"
+    LogicalPath="McElements.var"
+    Type="File"
+    LastWriteTime="133647258212233229"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="133649706416462745"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133647241081880386"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133649643779154378"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133648423764313758" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133647241109640772" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133647241109975964"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133647241110241240"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133647241110501217"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133647241111519666" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133647241111865375"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133647241112170577"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133647241112480765"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133647241108618129" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133647241107656968"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133647241107977150"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133647241108282913"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133647241084504834" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133647241083544389"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133647241083839565"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133647241084134860"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McBase\binary.lby"
+    LogicalPath="Libraries.McBase"
+    Type="Library"
+    LastWriteTime="133647241095545637" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McBase\McBase.typ"
+    LogicalPath="Libraries.McBase.McBase.typ"
+    Type="File"
+    LastWriteTime="133647241094621377"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McBase\McBase.fun"
+    LogicalPath="Libraries.McBase.McBase.fun"
+    Type="File"
+    LastWriteTime="133647241094296175"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McBase\McBase.var"
+    LogicalPath="Libraries.McBase.McBase.var"
+    Type="File"
+    LastWriteTime="133647241094844295"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McBase\McBaseCfg.typ"
+    LogicalPath="Libraries.McBase.McBaseCfg.typ"
+    Type="File"
+    LastWriteTime="133647241095180108"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAxis\binary.lby"
+    LogicalPath="Libraries.MpAxis"
+    Type="Library"
+    LastWriteTime="133647241102045175" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAxis\MpAxis.fun"
+    LogicalPath="Libraries.MpAxis.MpAxis.fun"
+    Type="File"
+    LastWriteTime="133647241101094165"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAxis\MpAxis.typ"
+    LogicalPath="Libraries.MpAxis.MpAxis.typ"
+    Type="File"
+    LastWriteTime="133647241101409815"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAxis\MpAxisError.typ"
+    LogicalPath="Libraries.MpAxis.MpAxisError.typ"
+    Type="File"
+    LastWriteTime="133647241101715215"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAxis\binary.lby"
+    LogicalPath="Libraries.McAxis"
+    Type="Library"
+    LastWriteTime="133647241091736755" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAxis\McAxis.typ"
+    LogicalPath="Libraries.McAxis.McAxis.typ"
+    Type="File"
+    LastWriteTime="133647241090845484"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAxis\McAxis.fun"
+    LogicalPath="Libraries.McAxis.McAxis.fun"
+    Type="File"
+    LastWriteTime="133647241090510349"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAxis\McAxis.var"
+    LogicalPath="Libraries.McAxis.McAxis.var"
+    Type="File"
+    LastWriteTime="133647241091071183"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAxis\McAxisCfg.typ"
+    LogicalPath="Libraries.McAxis.McAxisCfg.typ"
+    Type="File"
+    LastWriteTime="133647241091391035"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="133647241104207914" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="133647241105499698"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="133647241105219537"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="133647241104893137"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133647241104587807"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAcpAx\binary.lby"
+    LogicalPath="Libraries.McAcpAx"
+    Type="Library"
+    LastWriteTime="133647241087090711" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAcpAx\McAcpAx.typ"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.typ"
+    Type="File"
+    LastWriteTime="133647241085811684"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAcpAx\McAcpAx.fun"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.fun"
+    Type="File"
+    LastWriteTime="133647241085476021"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAcpAx\McAcpAx.var"
+    LogicalPath="Libraries.McAcpAx.McAcpAx.var"
+    Type="File"
+    LastWriteTime="133647241086031794"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\McAcpAx\McAcpAxCfg.typ"
+    LogicalPath="Libraries.McAcpAx.McAcpAxCfg.typ"
+    Type="File"
+    LastWriteTime="133647241086740623"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133647241113481722" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133647241113807104"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133647241114067112"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133647241114322757"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAlarmX\Binary.lby"
+    LogicalPath="Libraries.MpAlarmX"
+    Type="Library"
+    LastWriteTime="133648078942174206" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAlarmX\MpAlarmX.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.typ"
+    Type="File"
+    LastWriteTime="133648078942174206"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAlarmX\MpAlarmXError.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmXError.typ"
+    Type="File"
+    LastWriteTime="133648078942174206"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpAlarmX\MpAlarmX.fun"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.fun"
+    Type="File"
+    LastWriteTime="133648078942174206"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpServer\Binary.lby"
+    LogicalPath="Libraries.MpServer"
+    Type="Library"
+    LastWriteTime="133648091252324238" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpServer\Constants.var"
+    LogicalPath="Libraries.MpServer.Constants.var"
+    Type="File"
+    LastWriteTime="133648091252224149"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpServer\Types.typ"
+    LogicalPath="Libraries.MpServer.Types.typ"
+    Type="File"
+    LastWriteTime="133648091252224149"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpServer\MpServer.fun"
+    LogicalPath="Libraries.MpServer.MpServer.fun"
+    Type="File"
+    LastWriteTime="133648091252224149"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpServer\MpServer_EventLog.tmx"
+    LogicalPath="Libraries.MpServer.MpServer_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133648091252324238"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpRecipe\Binary.lby"
+    LogicalPath="Libraries.MpRecipe"
+    Type="Library"
+    LastWriteTime="133648423762604750" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpRecipe\MpRecipe.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.typ"
+    Type="File"
+    LastWriteTime="133648423762505539"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpRecipe\MpRecipeAlarm.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeAlarm.typ"
+    Type="File"
+    LastWriteTime="133648423762505539"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpRecipe\MpRecipeError.typ"
+    LogicalPath="Libraries.MpRecipe.MpRecipeError.typ"
+    Type="File"
+    LastWriteTime="133648423762505539"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\MpRecipe\MpRecipe.fun"
+    LogicalPath="Libraries.MpRecipe.MpRecipe.fun"
+    Type="File"
+    LastWriteTime="133648423762505539"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\sys_lib\binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="133648423763913110" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="133648423763712487"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="133648423763913110"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="133648423763913110"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\servo\IEC.prg"
+    LogicalPath="servo"
+    Type="Program"
+    LastWriteTime="133647241183546120" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\servo\Main.st"
+    LogicalPath="servo.Main.st"
+    Type="File"
+    LastWriteTime="133649741143093793"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\servo\Types.typ"
+    LogicalPath="servo.Types.typ"
+    Type="File"
+    LastWriteTime="133647241184600834"
+    Private="true" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\servo\Variables.var"
+    LogicalPath="servo.Variables.var"
+    Type="File"
+    LastWriteTime="133649438766170159"
+    Private="true" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="133647241115313396" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="133647241115708994" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="133647241183146119" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="133647241116128969" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133648320312867272" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133647241168883347" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="133649888560556718" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="133649283452878418" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\speaker-filled-audio-tool_59284.png"
+    LogicalPath="mappView.Resources.Media.speaker-filled-audio-tool_59284.png"
+    Type="File"
+    LastWriteTime="133647241117069866"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib"
+    Type="Package"
+    LastWriteTime="133647241117495044" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm"
+    Type="Package"
+    LastWriteTime="133647241119713217" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Acknowledge.svg"
+    Type="File"
+    LastWriteTime="133647241117910407"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Alarm.svg"
+    Type="File"
+    LastWriteTime="133647241118295956"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.AlarmHistory.svg"
+    Type="File"
+    LastWriteTime="133647241118971745"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Error.svg"
+    Type="File"
+    LastWriteTime="133647241119317513"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow"
+    Type="Package"
+    LastWriteTime="133647241123083467" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowDown.svg"
+    Type="File"
+    LastWriteTime="133647241120179051"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowLeft.svg"
+    Type="File"
+    LastWriteTime="133647241120509107"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowRight.svg"
+    Type="File"
+    LastWriteTime="133647241120824831"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowUp.svg"
+    Type="File"
+    LastWriteTime="133647241121119907"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Back.svg"
+    Type="File"
+    LastWriteTime="133647241121450039"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down2.svg"
+    Type="File"
+    LastWriteTime="133647241122092340"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down1.svg"
+    Type="File"
+    LastWriteTime="133647241121785164"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down3.svg"
+    Type="File"
+    LastWriteTime="133647241122418185"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Forward.svg"
+    Type="File"
+    LastWriteTime="133647241122733439"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up1.svg"
+    Type="File"
+    LastWriteTime="133647241123393286"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up2.svg"
+    Type="File"
+    LastWriteTime="133647241123716836"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up3.svg"
+    Type="File"
+    LastWriteTime="133647241124006918"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication"
+    Type="Package"
+    LastWriteTime="133647241125365385" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionFail.svg"
+    Type="File"
+    LastWriteTime="133647241124432075"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionOK.svg"
+    Type="File"
+    LastWriteTime="133647241124747487"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.Network.svg"
+    Type="File"
+    LastWriteTime="133647241125009585"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime"
+    Type="Package"
+    LastWriteTime="133647241126747888" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Calendar.svg"
+    Type="File"
+    LastWriteTime="133647241125746986"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Clock.svg"
+    Type="File"
+    LastWriteTime="133647241126072029"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Date.svg"
+    Type="File"
+    LastWriteTime="133647241126387199"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic"
+    Type="Package"
+    LastWriteTime="133647241127510376" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic.Diagnostics.svg"
+    Type="File"
+    LastWriteTime="133647241127140509"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch"
+    Type="Package"
+    LastWriteTime="133647241128876728" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Calibrate.svg"
+    Type="File"
+    LastWriteTime="133647241127896254"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Contrast.svg"
+    Type="File"
+    LastWriteTime="133647241128211418"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Lightness.svg"
+    Type="File"
+    LastWriteTime="133647241128531358"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit"
+    Type="Package"
+    LastWriteTime="133647241134521443" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Add.svg"
+    Type="File"
+    LastWriteTime="133647241129252224"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Character.svg"
+    Type="File"
+    LastWriteTime="133647241129587849"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Close.svg"
+    Type="File"
+    LastWriteTime="133647241129909403"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Copy.svg"
+    Type="File"
+    LastWriteTime="133647241130252669"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Cut.svg"
+    Type="File"
+    LastWriteTime="133647241130592554"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Delete.svg"
+    Type="File"
+    LastWriteTime="133647241130917849"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Edit.svg"
+    Type="File"
+    LastWriteTime="133647241131173447"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Favorite.svg"
+    Type="File"
+    LastWriteTime="133647241131513381"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Help.svg"
+    Type="File"
+    LastWriteTime="133647241131828715"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Information.svg"
+    Type="File"
+    LastWriteTime="133647241132154104"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Insert.svg"
+    Type="File"
+    LastWriteTime="133647241132484079"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Maximize.svg"
+    Type="File"
+    LastWriteTime="133647241132809572"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Minimize.svg"
+    Type="File"
+    LastWriteTime="133647241133139656"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.New.svg"
+    Type="File"
+    LastWriteTime="133647241133464978"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Number.svg"
+    Type="File"
+    LastWriteTime="133647241133800725"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Open.svg"
+    Type="File"
+    LastWriteTime="133647241134134549"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin.svg"
+    Type="File"
+    LastWriteTime="133647241134842914"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin2.svg"
+    Type="File"
+    LastWriteTime="133647241135178409"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Redo.svg"
+    Type="File"
+    LastWriteTime="133647241135498566"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Save.svg"
+    Type="File"
+    LastWriteTime="133647241135823839"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Undo.svg"
+    Type="File"
+    LastWriteTime="133647241136154333"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomIn.svg"
+    Type="File"
+    LastWriteTime="133647241136494725"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomOut.svg"
+    Type="File"
+    LastWriteTime="133647241136828688"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File"
+    Type="Package"
+    LastWriteTime="133647241137899183" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.File.svg"
+    Type="File"
+    LastWriteTime="133647241137203901"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Files.svg"
+    Type="File"
+    LastWriteTime="133647241137543891"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Package.svg"
+    Type="File"
+    LastWriteTime="133647241138144469"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Recipe.svg"
+    Type="File"
+    LastWriteTime="133647241138484313"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Search.svg"
+    Type="File"
+    LastWriteTime="133647241138819818"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize"
+    Type="Package"
+    LastWriteTime="133647241141881601" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Browser.svg"
+    Type="File"
+    LastWriteTime="133647241139214942"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.China.svg"
+    Type="File"
+    LastWriteTime="133647241139544932"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Flag.svg"
+    Type="File"
+    LastWriteTime="133647241139870227"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.France.svg"
+    Type="File"
+    LastWriteTime="133647241140195676"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Germany.svg"
+    Type="File"
+    LastWriteTime="133647241140545600"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.GreatBritain.svg"
+    Type="File"
+    LastWriteTime="133647241140871030"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Italy.svg"
+    Type="File"
+    LastWriteTime="133647241141186512"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Language.svg"
+    Type="File"
+    LastWriteTime="133647241141541674"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Portugal.svg"
+    Type="File"
+    LastWriteTime="133647241142217927"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Russia.svg"
+    Type="File"
+    LastWriteTime="133647241142557972"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Spain.svg"
+    Type="File"
+    LastWriteTime="133647241142903389"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.UK.svg"
+    Type="File"
+    LastWriteTime="133647241143238799"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.USA.svg"
+    Type="File"
+    LastWriteTime="133647241143964521"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media"
+    Type="Package"
+    LastWriteTime="133647241146035846" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForward.svg"
+    Type="File"
+    LastWriteTime="133647241144359865"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForwardStop.svg"
+    Type="File"
+    LastWriteTime="133647241144674832"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewind.svg"
+    Type="File"
+    LastWriteTime="133647241145014805"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewindStop.svg"
+    Type="File"
+    LastWriteTime="133647241145340099"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.ForwardStop.svg"
+    Type="File"
+    LastWriteTime="133647241145675980"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Pause.svg"
+    Type="File"
+    LastWriteTime="133647241146381432"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Play.svg"
+    Type="File"
+    LastWriteTime="133647241146687223"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.RewindStop.svg"
+    Type="File"
+    LastWriteTime="133647241147017214"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Stop.svg"
+    Type="File"
+    LastWriteTime="133647241147332855"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Video.svg"
+    Type="File"
+    LastWriteTime="133647241147677817"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle"
+    Type="Package"
+    LastWriteTime="133647241150984637" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1long.svg"
+    Type="File"
+    LastWriteTime="133647241148057787"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1short.svg"
+    Type="File"
+    LastWriteTime="133647241148403135"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2long.svg"
+    Type="File"
+    LastWriteTime="133647241149089009"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2short.svg"
+    Type="File"
+    LastWriteTime="133647241149409026"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3long.svg"
+    Type="File"
+    LastWriteTime="133647241149734155"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3short.svg"
+    Type="File"
+    LastWriteTime="133647241150064088"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4long.svg"
+    Type="File"
+    LastWriteTime="133647241150379442"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4short.svg"
+    Type="File"
+    LastWriteTime="133647241150644874"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols"
+    Type="Package"
+    LastWriteTime="133647241157762716" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Accept.svg"
+    Type="File"
+    LastWriteTime="133647241151390164"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Button.svg"
+    Type="File"
+    LastWriteTime="133647241151725575"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Conveyor.svg"
+    Type="File"
+    LastWriteTime="133647241152055424"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Download.svg"
+    Type="File"
+    LastWriteTime="133647241152381429"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Energy.svg"
+    Type="File"
+    LastWriteTime="133647241152696738"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Engine.svg"
+    Type="File"
+    LastWriteTime="133647241153036749"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineMove.svg"
+    Type="File"
+    LastWriteTime="133647241153391958"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineReference.svg"
+    Type="File"
+    LastWriteTime="133647241153707362"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Graph.svg"
+    Type="File"
+    LastWriteTime="133647241154062956"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Hide.svg"
+    Type="File"
+    LastWriteTime="133647241154403034"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Home.svg"
+    Type="File"
+    LastWriteTime="133647241154739367"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.InProgress.svg"
+    Type="File"
+    LastWriteTime="133647241155064813"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mail.svg"
+    Type="File"
+    LastWriteTime="133647241155407355"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Max.svg"
+    Type="File"
+    LastWriteTime="133647241155732305"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Min.svg"
+    Type="File"
+    LastWriteTime="133647241156072444"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mode.svg"
+    Type="File"
+    LastWriteTime="133647241156386702"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Off.svg"
+    Type="File"
+    LastWriteTime="133647241156722011"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.On.svg"
+    Type="File"
+    LastWriteTime="133647241157047311"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.PDF.svg"
+    Type="File"
+    LastWriteTime="133647241157397571"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote1.svg"
+    Type="File"
+    LastWriteTime="133647241158102876"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote2.svg"
+    Type="File"
+    LastWriteTime="133647241158408656"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote3.svg"
+    Type="File"
+    LastWriteTime="133647241158747969"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote4.svg"
+    Type="File"
+    LastWriteTime="133647241159094865"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Reset.svg"
+    Type="File"
+    LastWriteTime="133647241159414998"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Restart.svg"
+    Type="File"
+    LastWriteTime="133647241159730376"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Robot.svg"
+    Type="File"
+    LastWriteTime="133647241160055627"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Safety.svg"
+    Type="File"
+    LastWriteTime="133647241160385513"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Server.svg"
+    Type="File"
+    LastWriteTime="133647241160731228"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Service.svg"
+    Type="File"
+    LastWriteTime="133647241161041201"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Settings.svg"
+    Type="File"
+    LastWriteTime="133647241161380448"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Slider_Symbol.svg"
+    Type="File"
+    LastWriteTime="133647241161705888"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Start.svg"
+    Type="File"
+    LastWriteTime="133647241162026068"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Stop.svg"
+    Type="File"
+    LastWriteTime="133647241162341466"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.SystemSettings.svg"
+    Type="File"
+    LastWriteTime="133647241162679837"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Temperature.svg"
+    Type="File"
+    LastWriteTime="133647241162989826"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Tool.svg"
+    Type="File"
+    LastWriteTime="133647241163295197"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.TouchMe.svg"
+    Type="File"
+    LastWriteTime="133647241163615079"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.UnHide.svg"
+    Type="File"
+    LastWriteTime="133647241164295474"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Upload.svg"
+    Type="File"
+    LastWriteTime="133647241164610469"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.USB.svg"
+    Type="File"
+    LastWriteTime="133647241163960212"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Wait.svg"
+    Type="File"
+    LastWriteTime="133647241164970466"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Webcam.svg"
+    Type="File"
+    LastWriteTime="133647241165305592"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User"
+    Type="Package"
+    LastWriteTime="133647241167516396" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.AddUser.svg"
+    Type="File"
+    LastWriteTime="133647241165690685"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.DeleteUser.svg"
+    Type="File"
+    LastWriteTime="133647241165940701"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Lock.svg"
+    Type="File"
+    LastWriteTime="133647241166255983"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Login.svg"
+    Type="File"
+    LastWriteTime="133647241166516556"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Logout.svg"
+    Type="File"
+    LastWriteTime="133647241166841276"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.NoAccessRights.svg"
+    Type="File"
+    LastWriteTime="133647241167166353"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Unlock.svg"
+    Type="File"
+    LastWriteTime="133647241167832469"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.User.svg"
+    Type="File"
+    LastWriteTime="133647241168147890"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.UserGroup.svg"
+    Type="File"
+    LastWriteTime="133647241168477893"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\AG-1.png"
+    LogicalPath="mappView.Resources.Media.AG-1.png"
+    Type="File"
+    LastWriteTime="133647241116424615"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Resources\Media\Logo.jpg"
+    LogicalPath="mappView.Resources.Media.Logo.jpg"
+    Type="File"
+    LastWriteTime="133649207373255017"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="133647241170109521" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="133647241172665952" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="133647241176123972" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\AreaContents\ContentTitle.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.ContentTitle.content"
+    Type="File"
+    LastWriteTime="133649850842315169"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\AreaContents\ContentNavbar.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.ContentNavbar.content"
+    Type="File"
+    LastWriteTime="133649877834939639"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\MainPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.MainPage"
+    Type="Package"
+    LastWriteTime="133647241178415632" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\MainPage\Page.page"
+    LogicalPath="mappView.Visualization.Pages.MainPage.Page.page"
+    Type="File"
+    LastWriteTime="133649814463545103"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\MainPage\MainPage.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.MainPage.content"
+    Type="File"
+    LastWriteTime="133649852900086508"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\AlarmHistory\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AlarmHistory"
+    Type="Package"
+    LastWriteTime="133647241174512321" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\AlarmHistory\Page.page"
+    LogicalPath="mappView.Visualization.Pages.AlarmHistory.Page.page"
+    Type="File"
+    LastWriteTime="133649760698770958"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\AlarmHistory\AlarmHistory.content"
+    LogicalPath="mappView.Visualization.Pages.AlarmHistory.AlarmHistory.content"
+    Type="File"
+    LastWriteTime="133649872918416279"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Alarm\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Alarm"
+    Type="Package"
+    LastWriteTime="133647241173421930" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Alarm\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Alarm.Page.page"
+    Type="File"
+    LastWriteTime="133649863673466028"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Alarm\Alarm.content"
+    LogicalPath="mappView.Visualization.Pages.Alarm.Alarm.content"
+    Type="File"
+    LastWriteTime="133649872919186423"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\SDM\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.SDM"
+    Type="Package"
+    LastWriteTime="133647241179220726" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\SDM\Page.page"
+    LogicalPath="mappView.Visualization.Pages.SDM.Page.page"
+    Type="File"
+    LastWriteTime="133649863672702374"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\SDM\SDM.content"
+    LogicalPath="mappView.Visualization.Pages.SDM.SDM.content"
+    Type="File"
+    LastWriteTime="133649917223737339"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Capacity\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Capacity"
+    Type="Package"
+    LastWriteTime="133647241176909190" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Capacity\Page.page"
+    LogicalPath="mappView.Visualization.Pages.Capacity.Page.page"
+    Type="File"
+    LastWriteTime="133649820934994603"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\Capacity\Capacity.content"
+    LogicalPath="mappView.Visualization.Pages.Capacity.Capacity.content"
+    Type="File"
+    LastWriteTime="133649821226405465"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\SignIn\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.SignIn"
+    Type="Package"
+    LastWriteTime="133647241180422764" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\SignIn\Page.page"
+    LogicalPath="mappView.Visualization.Pages.SignIn.Page.page"
+    Type="File"
+    LastWriteTime="133649863671977060"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Pages\SignIn\SignIn.content"
+    LogicalPath="mappView.Visualization.Pages.SignIn.SignIn.content"
+    Type="File"
+    LastWriteTime="133649883058317627"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="133647241182750597" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="133647241171470284" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="133647241172230678" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Layouts\Agrolayout.layout"
+    LogicalPath="mappView.Visualization.Layouts.Agrolayout.layout"
+    Type="File"
+    LastWriteTime="133647241171875424"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="133647241170614768" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="133647241171024986" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="133647241181523980" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133647241182344983" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133647241181929648" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133647241185706821" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133649444054561302"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133647241186422186"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Cpu.pkg"
+    LogicalPath="Config1.X20CP1586"
+    Type="Cpu"
+    LastWriteTime="133649916781492297" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Cpu.sw"
+    LogicalPath="Config1.X20CP1586.Cpu.sw"
+    Type="File"
+    LastWriteTime="133648423766232481"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Cpu.per"
+    LogicalPath="Config1.X20CP1586.Cpu.per"
+    Type="File"
+    LastWriteTime="133647241187032335"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\IoMap.iom"
+    LogicalPath="Config1.X20CP1586.IoMap.iom"
+    Type="File"
+    LastWriteTime="133648502111079812"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\PvMap.vvm"
+    LogicalPath="Config1.X20CP1586.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133647241188061094"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity"
+    Type="Package"
+    LastWriteTime="133647241194500376" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133647241195241417" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="133649722142405100"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.X20CP1586.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133647241195641368" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.TextSystem"
+    Type="Package"
+    LastWriteTime="133648321668375059" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.UnitSystem"
+    Type="Package"
+    LastWriteTime="133647241196431801" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133647241188466200" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133647241193359650" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133647241193715102"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133647241194090377"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133647241188861881" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133647241190122251" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133647241190528118" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133647241190932918" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133647241191368381" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133647241191773758" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133647241189267203" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133647241189702250" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133647241192944233" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133647241192198865" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP1586.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133647241192538996"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappControl"
+    Type="Package"
+    LastWriteTime="133647241197659185" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappMotion"
+    Type="Package"
+    LastWriteTime="133647241199555235" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_1.axis"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_1.axis"
+    Type="File"
+    LastWriteTime="133647241198074548"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_2.axis"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_2.axis"
+    Type="File"
+    LastWriteTime="133647241198434658"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_3.axis"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_3.axis"
+    Type="File"
+    LastWriteTime="133647241198799936"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappMotion\Config_4.axis"
+    LogicalPath="Config1.X20CP1586.mappMotion.Config_4.axis"
+    Type="File"
+    LastWriteTime="133647241199175107"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappServices"
+    Type="Package"
+    LastWriteTime="133649706398332058" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Config.mpalarmxcore"
+    LogicalPath="Config1.X20CP1586.mappServices.Config.mpalarmxcore"
+    Type="File"
+    LastWriteTime="133649001681128637"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Config_5.mpalarmxhistory"
+    LogicalPath="Config1.X20CP1586.mappServices.Config_5.mpalarmxhistory"
+    Type="File"
+    LastWriteTime="133648281201195890"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappServices\Config_7.mprecipecsv"
+    LogicalPath="Config1.X20CP1586.mappServices.Config_7.mprecipecsv"
+    Type="File"
+    LastWriteTime="133649706305731943"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappSafety\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappSafety"
+    Type="Package"
+    LastWriteTime="133647241199950396" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133647241200366113" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133647241200771460" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappView"
+    Type="Package"
+    LastWriteTime="133649721094841043" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\Config.mappviewcfg"
+    LogicalPath="Config1.X20CP1586.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="133647241202698098"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\contenttitle.binding"
+    LogicalPath="Config1.X20CP1586.mappView.contenttitle.binding"
+    Type="File"
+    LastWriteTime="133647241204494299"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\Visualizat.vis"
+    LogicalPath="Config1.X20CP1586.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="133649888561754293"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_0.binding"
+    LogicalPath="Config1.X20CP1586.mappView.content_0.binding"
+    Type="File"
+    LastWriteTime="133649797777621928"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\contenttitle.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.contenttitle.eventbinding"
+    Type="File"
+    LastWriteTime="133647241204860001"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_3.binding"
+    LogicalPath="Config1.X20CP1586.mappView.content_3.binding"
+    Type="File"
+    LastWriteTime="133647241204144276"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_0.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.content_0.eventbinding"
+    Type="File"
+    LastWriteTime="133648926962939110"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_4.binding"
+    LogicalPath="Config1.X20CP1586.mappView.content_4.binding"
+    Type="File"
+    LastWriteTime="133649004823614088"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_2.binding"
+    LogicalPath="Config1.X20CP1586.mappView.content_2.binding"
+    Type="File"
+    LastWriteTime="133648094540212905"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_1.binding"
+    LogicalPath="Config1.X20CP1586.mappView.content_1.binding"
+    Type="File"
+    LastWriteTime="133649743019098819"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_2.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.content_2.eventbinding"
+    Type="File"
+    LastWriteTime="133648489235180005"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappView\content_1.eventbinding"
+    LogicalPath="Config1.X20CP1586.mappView.content_1.eventbinding"
+    Type="File"
+    LastWriteTime="133649737762715144"
+    Private="false" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappVision\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappVision"
+    Type="Package"
+    LastWriteTime="133647241205265586" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP1586.mappCockpit"
+    Type="Package"
+    LastWriteTime="133647241197253437" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\X20CP1586\VC\Package.pkg"
+    LogicalPath="Config1.X20CP1586.VC"
+    Type="Package"
+    LastWriteTime="133647241196837648" />
+  <Object
+    Path="C:\BRproject\Ag-Rover-main (1)\Ag-Rover-main\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133647241186697301"
+    Private="false" />
+</Objects>

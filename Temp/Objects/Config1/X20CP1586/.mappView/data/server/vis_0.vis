@@ -1,0 +1,52 @@
+
+<vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="page_5" />
+  <Pages>
+    <Page refId="page_0" />
+    <Page refId="page_1" />
+    <Page refId="page_2" />
+    <Page refId="page_3" />
+    <Page refId="page_4" />
+    <Page refId="page_5" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="-1746196365" />
+    <BindingsSet refId="-1292334870" />
+    <BindingsSet refId="-1284390361" />
+    <BindingsSet refId="-1287599890" />
+    <BindingsSet refId="-1285506712" />
+    <BindingsSet refId="-1291218519" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="-329585693" />
+    <EventBindingsSet refId="-1746542992" />
+    <EventBindingsSet refId="1546160238" />
+    <EventBindingsSet refId="-611679951" />
+  </EventBindingsSets>
+  <Dialogs />
+  <Contents>
+    <Content refId="contenttitle" />
+    <Content refId="contentnavbar" />
+    <Content refId="content_0" />
+    <Content refId="content_1" />
+    <Content refId="content_2" />
+    <Content refId="content_3" />
+    <Content refId="content_4" />
+    <Content refId="content_5" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

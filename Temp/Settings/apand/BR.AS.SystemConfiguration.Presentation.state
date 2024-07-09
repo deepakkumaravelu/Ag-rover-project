@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TreeView ID="BR.AS.SystemConfiguration.Presentation-C:\projects\Deltarobo\Physical\Config1\X20CP1685\mappMotion\Hierarchy.objecthierarchy" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="100" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="100" Position="2" />
+      <Column Index="3" Width="100" Position="3" />
+      <Column Index="4" Width="0" Position="4" />
+    </Columns>
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+      <ExpandedNode Row="13" />
+      <ExpandedNode Row="14" />
+      <ExpandedNode Row="15" />
+      <ExpandedNode Row="25" />
+    </ExpandedNodes>
+    <SelectedNodes />
+    <ZoomIndices />
+  </TreeView>
+  <Versatile ID="BR.AS.SystemConfiguration.Presentation-EditorState-C:\projects\Deltarobo\Physical\Config1\X20CP1685\mappMotion\Hierarchy.objecthierarchy">
+    <Property Name="advancedparametervisibility" Value="False" />
+  </Versatile>
+  <TreeView ID="BR.AS.SystemConfiguration.Presentation-C:\projects\Servo\Physical\Config1\X20CP1586\mappServices\Config.mpalarmxcore" EditColumn="1" TopRow="35" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="100" Position="0" />
+      <Column Index="1" Width="156" Position="1" />
+      <Column Index="2" Width="100" Position="2" />
+      <Column Index="3" Width="100" Position="3" />
+      <Column Index="4" Width="0" Position="4" />
+    </Columns>
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+      <ExpandedNode Row="1" />
+      <ExpandedNode Row="2" />
+      <ExpandedNode Row="3" />
+      <ExpandedNode Row="6" />
+      <ExpandedNode Row="7" />
+      <ExpandedNode Row="10" />
+      <ExpandedNode Row="13" />
+      <ExpandedNode Row="14" />
+      <ExpandedNode Row="19" />
+      <ExpandedNode Row="22" />
+      <ExpandedNode Row="27" />
+      <ExpandedNode Row="30" />
+      <ExpandedNode Row="35" />
+      <ExpandedNode Row="38" />
+      <ExpandedNode Row="43" />
+      <ExpandedNode Row="46" />
+      <ExpandedNode Row="48" />
+      <ExpandedNode Row="50" />
+      <ExpandedNode Row="52" />
+      <ExpandedNode Row="53" />
+      <ExpandedNode Row="56" />
+      <ExpandedNode Row="57" />
+      <ExpandedNode Row="58" />
+      <ExpandedNode Row="61" />
+      <ExpandedNode Row="63" />
+      <ExpandedNode Row="66" />
+      <ExpandedNode Row="68" />
+      <ExpandedNode Row="69" />
+      <ExpandedNode Row="71" />
+    </ExpandedNodes>
+    <SelectedNodes>
+      <SelectedNode Row="30" />
+    </SelectedNodes>
+    <ZoomIndices />
+  </TreeView>
+  <Versatile ID="BR.AS.SystemConfiguration.Presentation-EditorState-C:\projects\Servo\Physical\Config1\X20CP1586\mappServices\Config.mpalarmxcore">
+    <Property Name="advancedparametervisibility" Value="False" />
+  </Versatile>
+</State>

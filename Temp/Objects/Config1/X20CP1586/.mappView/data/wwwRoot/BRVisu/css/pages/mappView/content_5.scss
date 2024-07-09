@@ -1,0 +1,35 @@
+@import "mixins.scss";
+#content_5_Login1 {	@include elemTop(180);
+}
+#content_5_Login1 {	@include elemLeft(580);
+}
+#content_5_Login1 {	@include elemWidth(400);
+}
+#content_5_Login1 {	@include elemHeight(180);
+}
+#content_5_Login1 {	z-index: 0;
+}
+#content_5_Login1 {	border-style: solid;
+}
+#content_5_Login1 {	background-color: rgba(255, 255, 255, 0);
+}
+#content_5_Login1 {	border-color: rgba(192, 192, 192, 1);
+}
+#content_5_Login1 {	margin: 10px;
+}
+#content_5_Label1 {	@include elemAutoHeight(30);
+}
+#content_5_Label1 {	@include elemTop(140);
+}
+#content_5_Label1 {	@include elemLeft(520);
+}
+#content_5_Label1 {	@include elemAutoWidth(540);
+}
+#content_5_Label1 {	z-index: 1;
+}
+#content_5_Label1 {	@include text-alignment-all('center');
+}
+#content_5_Label1 {	font-size: 25px;
+}
+#content_5_Label1 {	@include font-weight-bold(true);
+}

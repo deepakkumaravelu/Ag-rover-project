@@ -1,0 +1,95 @@
+@import "mixins.scss";
+#content_2_AlarmList1 {	@include elemTop(20);
+}
+#content_2_AlarmList1 {	@include elemLeft(119);
+}
+#content_2_AlarmList1 {	@include elemWidth(1281);
+}
+#content_2_AlarmList1 {	@include elemHeight(420);
+}
+#content_2_AlarmList1 {	z-index: 0;
+}
+#content_2_AlarmList1 {	&.breaseTableWidget {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#content_2_AlarmList1 {	&.breaseTableWidget .breaseTableColumnWidget:not(.disabled) {
+		background-color: rgba(240, 255, 240, 1);
+	}
+}
+#content_2_AlarmList1 {	&.breaseTableWidget .dataTable tr.selected td {
+		background-color: rgba(192, 255, 192, 1);
+	}
+}
+#content_2_AlarmList1 {	&.breaseTableWidget .dataTable paginate_button current {
+		border-color: rgba(192, 255, 192, 1);
+	}
+}
+#content_2_AlarmList1 {	.breaseTableColumnWidget.disabled {
+		background-color: rgba(240, 255, 240, 1);
+	}
+}
+#content_2_AlarmListItem1 {	@include elemWidth(340);
+}
+#content_2_AlarmListItem1 {	z-index: 0;
+}
+#content_2_AlarmListItem2 {	@include elemWidth(360);
+}
+#content_2_AlarmListItem2 {	z-index: 1;
+}
+#content_2_AlarmListItem3 {	@include elemWidth(300);
+}
+#content_2_AlarmListItem3 {	z-index: 2;
+}
+#content_2_AlarmListItem4 {	@include elemWidth(280);
+}
+#content_2_AlarmListItem4 {	z-index: 3;
+}
+#content_2_Button1 {	@include elemTop(440);
+}
+#content_2_Button1 {	@include elemLeft(380);
+}
+#content_2_Button1 {	@include elemAutoWidth(200);
+}
+#content_2_Button1 {	@include elemAutoHeight(60);
+}
+#content_2_Button1 {	z-index: 1;
+}
+#content_2_Button1 {	@include border-radius(5px);
+}
+#content_2_Button1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#content_2_Button1 {	span {
+		font-size: 15px;
+	}
+}
+#content_2_Button1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#content_2_Button2 {	@include elemTop(440);
+}
+#content_2_Button2 {	@include elemLeft(120);
+}
+#content_2_Button2 {	@include elemAutoWidth(200);
+}
+#content_2_Button2 {	@include elemAutoHeight(60);
+}
+#content_2_Button2 {	z-index: 2;
+}
+#content_2_Button2 {	@include border-radius(5px);
+}
+#content_2_Button2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(245, 255, 250, 1);
+	}
+}
+#content_2_Button2 {	span {
+		font-size: 15px;
+	}
+}
+#content_2_Button2 {	span {
+		@include font-weight-bold(true);
+	}
+}
